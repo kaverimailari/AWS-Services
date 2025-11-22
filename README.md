@@ -1,2 +1,3 @@
 # AWS-Services
-All AWS Services definitions available here
+All AWS Services definitions with detailed explanation available here.
+
