@@ -1,0 +1,59 @@
+What is AWS Lambda?
+
+AWS Lambda is a serverless compute service that lets you run code without provisioning or managing servers.
+
+ You upload your function → AWS handles:
+✔ Infrastructure
+ ✔ Scaling
+ ✔ High availability
+ ✔ Patching
+ ✔ Capacity planning
+
+You only pay for execution time, measured in milliseconds.
+
+Lambda can be triggered by over 200+ AWS events (S3 uploads, API calls, EventBridge, SNS, DynamoDB streams, CloudWatch events, etc.), making it perfect for automation.
+
+⚙️ Why DevOps & Cloud Engineers Use Lambda
+
+Lambda is extremely useful in areas where you need automation, event-driven workflows, or lightweight backend logic.
+
+Here are the strongest use cases:
+🔵 Top AWS Lambda Use Cases for DevOps Engineers
+
+1️⃣ Automating Infrastructure Tasks
+Auto-stop unused EC2 instances
+Cleanup unattached EBS volumes
+Detect & delete unused IAM access keys
+Rotate secrets automatically
+Enforce tagging policies
+
+2️⃣ Triggering CI/CD Actions
+Start an ECS task when a file lands in S3
+Push notifications to Slack/Teams for deployments
+Trigger build/scan events through EventBridge
+Auto-approve or validate PR requirements
+
+3️⃣ Security & Compliance Automation
+Scan S3 buckets for public access
+Enforce encryption policies (S3, EBS, RDS)
+Auto-remediate security group misconfigurations
+Integrate with Security Hub / GuardDuty alerts
+
+🔵 Top Use Cases for Cloud Engineers
+
+4️⃣ Cost Optimization
+Delete old snapshots
+Shut down non-prod environments outside business hours
+Clean up stale CloudWatch logs
+
+5️⃣ Observability Automation
+Push custom metrics to CloudWatch
+Auto-generate Ops reports
+Route alerts to email/SNS/Slack
+
+6️⃣ Data Pipelines & ETL
+Validate incoming files
+Trigger downstream jobs
+Lightweight transformations before storing in S3/Redshift
+
+It’s one of the most important tools for DevOps & Cloud Engineers who want to eliminate manual work and build scalable automation.
